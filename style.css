@@ -43,6 +43,31 @@ body {
     margin-left: 10%;
 }
 
+.video{
+
+}
+
+#page1Butt{
+    align-items: center;
+    /*transform: translateX(50%);*/
+    
+}
+
+.downButt1{
+    background: none;
+    margin: 25px;
+}
+
+.downButt2{
+    background: none;
+    margin: 25px;
+}
+
+.faq{
+    background: none;
+    margin: 25px;
+}
+
 
     /*PAGE 2*/
 
