@@ -1,0 +1,81 @@
+body {
+    font-family: Verdana;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+    /*header*/
+
+#fixedHeader {
+}
+
+.nav1{
+    background: none;
+    margin: 25px;
+    /*border-style: none;*/
+}
+
+.nav2{
+    background: none;
+    margin: 25px;
+}
+
+.nav3{
+    background: none;
+    margin: 25px;
+}
+
+.nav4{
+    background: none;
+    margin: 25px;
+}
+
+
+    /*PAGE 1*/
+
+.prev{
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+
+    /*PAGE 2*/
+
+.gameplay{
+
+}
+
+.general{
+
+}
+
+.complexity{
+
+}
+
+.graphics{
+    
+}
+
+    /*PAGE 3*/
+
+
+
+    /*PAGE 4*/
+
+.dev1{
+
+}
+
+.dev2{
+
+}
+
+.dev3{
+
+}
