@@ -331,3 +331,29 @@ body {
     border-radius: 17px;
     padding: 2%;
 }
+
+
+
+
+
+
+/* FOOTER */
+
+#footer{
+    background-color: #2C616D; 
+    width: 100%;
+    display: flex;
+}
+
+.payMethod {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
