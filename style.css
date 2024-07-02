@@ -5,33 +5,64 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    background-color: #A0CED8;
 }
 
 
     /*header*/
 
 #fixedHeader {
+    background-color: #2C616D; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
-.nav1{
+/*.logo{
     background: none;
+    border-style: none;
+    background-image: url(img/logo.PNG);
+    width: 64px;
+    height: 69px; 
+}*/
+
+.nav1{
+    background: #042C33;
+    border-radius: 7px;
+    color: #fff;
     margin: 25px;
+    padding: 10px;
     /*border-style: none;*/
+    font-size: 20px;
 }
 
 .nav2{
-    background: none;
+    background: #042C33;
+    border-radius: 7px;
+    color: #fff;
     margin: 25px;
+    padding: 10px;
+    font-size: 20px;
 }
 
 .nav3{
-    background: none;
+    background: #042C33;
+    border-radius: 7px;
+    color: #fff;
     margin: 25px;
+    padding: 10px;
+    font-size: 20px;
 }
 
 .nav4{
-    background: none;
+    background: #042C33;
+    border-radius: 7px;
+    color: #fff;
     margin: 25px;
+    padding: 10px;
+    font-size: 20px;
 }
 
 
@@ -48,24 +79,37 @@ body {
 }
 
 #page1Butt{
+    display: flex;
+    justify-content: center;
     align-items: center;
-    /*transform: translateX(50%);*/
-    
+    flex-direction: row;
 }
 
 .downButt1{
     background: none;
+    border-style: none;
+    background-image: url(img/windows.PNG);
     margin: 25px;
+    width: 152px;
+    height: 52px;
 }
 
 .downButt2{
     background: none;
+    border-style: none;
+    background-image: url(img/macos.PNG);
     margin: 25px;
+    width: 153px;
+    height: 52px;
 }
 
 .faq{
     background: none;
+    border-style: none;
+    background-image: url(img/faq.PNG);
     margin: 25px;
+    height: 52px;
+    width: 54px;
 }
 
 
