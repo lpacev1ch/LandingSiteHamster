@@ -109,6 +109,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    margin-bottom: 100px;
 }
 
 .downButt1{
@@ -150,6 +151,7 @@ body {
 #info{
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 100px;
 }
 
 .gameplay{
@@ -280,6 +282,7 @@ body {
 #world{
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 100px;
 }
 
 .video{
@@ -298,6 +301,7 @@ body {
 #contacts{
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 100px;
 }
 
 .dev1{
