@@ -150,12 +150,13 @@ body {
     border-radius: 17px;
 }
 
-.genPhoto{
-    width: 1234px; 
-    height: 684px;
+.genPhoto {
+    width: 100%;
+    max-width: 1234px;
+    height: auto;
     display: block;
     margin: 0 auto;
-}
+  }
 
 .complexity{
 
@@ -168,13 +169,14 @@ body {
 }
 
 .compPhoto{
-    width: 1234px; 
-    height: 684px;
+    width: 100%;
+    max-width: 1234px;
+    height: auto;
     display: block;
     margin: 0 auto;
 }
 
-.graphics{
+/* .graphics{
     margin-top: 5%;
     margin-right: 10%;
     margin-left: 10%;
@@ -210,8 +212,46 @@ body {
     width: 1234px;
     height: 684px;
     object-fit: cover;
-  }
+  } */
 
+  .graphics {
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #E4E5EE;
+    border: 2px solid #042C33;
+    border-radius: 17px;
+  }
+  
+  .carousellvl {
+    position: relative;
+    width: 100%;
+    max-width: 1234px;
+    height: 684px;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .carousellvl-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .carousellvl-item.active {
+    opacity: 1;
+  }
+  
+  .carousellvl-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
   
     /*PAGE 3*/
 
