@@ -68,10 +68,20 @@ body {
 
     /*PAGE 1*/
 
+#main{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 .prev{
+    margin: 100px;
+    padding: 40px;
     text-align: center;
     margin-right: 10%;
     margin-left: 10%;
+    background-color: #E4E5EE;
+    border: 2px solid #042C33;
+    border-radius: 17px;
 }
 
 .video{
@@ -115,36 +125,136 @@ body {
 
     /*PAGE 2*/
 
-.gameplay{
+#info{
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
+.gameplay{
+    margin-top: 2%;
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #E4E5EE;
+    border: 2px solid #042C33;
+    border-radius: 17px;
 }
 
 .general{
 
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #E4E5EE;
+    border: 2px solid #042C33;
+    border-radius: 17px;
+}
+
+.genPhoto{
+    width: 1234px; 
+    height: 684px;
+    display: block;
+    margin: 0 auto;
 }
 
 .complexity{
 
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #E4E5EE;
+    border: 2px solid #042C33;
+    border-radius: 17px;
+}
+
+.compPhoto{
+    width: 1234px; 
+    height: 684px;
+    display: block;
+    margin: 0 auto;
 }
 
 .graphics{
-    
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #E4E5EE;
+    border: 2px solid #042C33;
+    border-radius: 17px;
 }
 
+.carousellvl {
+    position: relative;
+    width: 1234px;
+    height: 684px;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;;
+  }
+  
+  .carousellvl-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1234px;
+    height: 684px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .carousellvl-item.active {
+    opacity: 1;
+  }
+  
+  .carousellvl-item img {
+    width: 1234px;
+    height: 684px;
+    object-fit: cover;
+  }
+
+  
     /*PAGE 3*/
 
-
+#world{
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
     /*PAGE 4*/
 
-.dev1{
+#contacts{
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
+.dev1{
+    margin-top: 2%;
+    background-color: #E4E5EE;
+    border: 2px solid #042C33;
+    border-radius: 17px;
+    padding: 2%;
 }
 
 .dev2{
-
+    margin-top: 2%;
+    background-color: #E4E5EE;
+    border: 2px solid #042C33;
+    border-radius: 17px;
+    padding: 2%;
 }
 
 .dev3{
+    margin-top: 2%;
+    background-color: #E4E5EE;
+    border: 2px solid #042C33;
+    border-radius: 17px;
+    padding: 2%;
+}
 
+.dev4{
+    margin-top: 2%;
+    background-color: #E4E5EE;
+    border: 2px solid #042C33;
+    border-radius: 17px;
+    padding: 2%;
 }
