@@ -130,8 +130,8 @@ body {
 
 @media (max-width: 768px) {
     .downButt1, .downButt2, .faq {
-        width: 120px; /* Adjust width for smaller screens */
-        height: 40px; /* Adjust height for smaller screens */
+        width: 120px;
+        height: 40px; /
     }
 
     .faq {
@@ -171,6 +171,7 @@ body {
     background-color: #E4E5EE;
     border: 2px solid #042C33;
     border-radius: 17px;
+    padding: 10px;
 }
 
 .general{
@@ -180,6 +181,7 @@ body {
     background-color: #E4E5EE;
     border: 2px solid #042C33;
     border-radius: 17px;
+    padding: 10px;
 }
 
 .genPhoto {
@@ -197,6 +199,7 @@ body {
     background-color: #E4E5EE;
     border: 2px solid #042C33;
     border-radius: 17px;
+    padding: 10px;
 }
 
 .compPhoto{
@@ -214,6 +217,7 @@ body {
     background-color: #E4E5EE;
     border: 2px solid #042C33;
     border-radius: 17px;
+    padding: 10px;
   }
   
   .carousellvl {
@@ -255,9 +259,22 @@ body {
 }
 
 .video{
-
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #E4E5EE;
+    border: 2px solid #042C33;
+    border-radius: 17px;
+    padding: 10px;
 }
 
+.promoVid{
+    width: 100%;
+    max-width: 1234px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 
 
 

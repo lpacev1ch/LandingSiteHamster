@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hamster Bombat</title>
-    
+
     <script src="main.js" defer></script>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -19,28 +19,28 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <button onclick="showSection('main')" class = "nav1">Главная</button>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <button onclick="showSection('info')" class = "nav2">Об игре</button>
-                  </li>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <button onclick="showSection('info')" class = "nav2">Об игре</button>
+                        </li>
                   
-                  <li class="nav-item">
-                    <button onclick="showSection('world')" class = "nav3">Обзор</button>
-                  </li>
+                        <li class="nav-item">
+                            <button onclick="showSection('world')" class = "nav3">Обзор</button>
+                        </li>
       
-                  <li class="nav-item">
-                    <button onclick="showSection('contacts')" class = "nav4">Авторы</button>
-                </li>
-                  
-                </ul>
-                </form>
-              </div>
+                        <li class="nav-item">
+                            <button onclick="showSection('contacts')" class = "nav4">Авторы</button>
+                        </li> 
+                    </ul>
+                </div>
             </div>
-          </nav>
+        </nav>
 
     </header>
     
@@ -155,7 +155,13 @@
     <section id = "world" style = "display: none">
 
         <div class = "video">
-            <p>*тут будет видео*</p>
+            <h1 style="text-align: center;">Краткий видео-обзор на игру</h1>
+
+            <video class = "promoVid" autoplay muted>
+                <source src="img/promoVid.mp4" type="video/mp4">
+            </video>
+
+            <p style = "margin-top: 15px;">В видео-обзоре выше рассмотрены все уровни графики описанные в разделе "Об игре", а так же все уровни слоности. Так же продемонстрирован основной геймплей и функционал игры, рассмотрены и продемонстрированы главные настройки</p>
         </div>
 
     </section>
