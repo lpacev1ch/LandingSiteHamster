@@ -1,6 +1,5 @@
 body {
     font-family: Verdana;
-    background-color: #fff;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -24,14 +23,6 @@ body {
     align-items: center;
     flex-direction: row;
 }
-
-/*.logo{
-    background: none;
-    border-style: none;
-    background-image: url(img/logo.PNG);
-    width: 64px;
-    height: 69px; 
-}*/
 
 .nav1{
     background: #042C33;
@@ -112,36 +103,54 @@ body {
     margin-bottom: 100px;
 }
 
-.downButt1{
+.downButt1, .downButt2, .faq {
     background: none;
     border-style: none;
-    background-image: url(img/windows.PNG);
     margin: 25px;
+    background-size: cover; /* Ensure the background image covers the button */
+}
+
+.downButt1 {
+    background-image: url(img/windows.PNG);
     width: 152px;
     height: 52px;
 }
 
-.downButt2{
-    background: none;
-    border-style: none;
+.downButt2 {
     background-image: url(img/macos.PNG);
-    margin: 25px;
     width: 153px;
     height: 52px;
 }
 
-.faq{
-    background: none;
-    border-style: none;
+.faq {
     background-image: url(img/faq.PNG);
-    margin: 25px;
-    height: 52px;
     width: 54px;
+    height: 52px;
 }
 
+@media (max-width: 768px) {
+    .downButt1, .downButt2, .faq {
+        width: 120px; /* Adjust width for smaller screens */
+        height: 40px; /* Adjust height for smaller screens */
+    }
 
+    .faq {
+        width: 40px;
+        height: 40px;
+    }
+}
 
+@media (max-width: 576px) {
+    .downButt1, .downButt2, .faq {
+        width: 100px;
+        height: 35px;
+    }
 
+    .faq {
+        width: 35px;
+        height: 35px;
+    }
+}
 
 
 
@@ -165,7 +174,6 @@ body {
 }
 
 .general{
-
     margin-top: 5%;
     margin-right: 10%;
     margin-left: 10%;
@@ -183,7 +191,6 @@ body {
   }
 
 .complexity{
-
     margin-top: 5%;
     margin-right: 10%;
     margin-left: 10%;
@@ -199,44 +206,6 @@ body {
     display: block;
     margin: 0 auto;
 }
-
-/* .graphics{
-    margin-top: 5%;
-    margin-right: 10%;
-    margin-left: 10%;
-    background-color: #E4E5EE;
-    border: 2px solid #042C33;
-    border-radius: 17px;
-}
-
-.carousellvl {
-    position: relative;
-    width: 1234px;
-    height: 684px;
-    overflow: hidden;
-    display: block;
-    margin: 0 auto;;
-  }
-  
-  .carousellvl-item {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 1234px;
-    height: 684px;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-  }
-  
-  .carousellvl-item.active {
-    opacity: 1;
-  }
-  
-  .carousellvl-item img {
-    width: 1234px;
-    height: 684px;
-    object-fit: cover;
-  } */
 
   .graphics {
     margin-top: 5%;
